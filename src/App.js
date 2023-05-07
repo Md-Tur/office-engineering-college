@@ -1,23 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
+import { Route, Routes } from "react-router-dom";
+// components
+import Banner from "./shared/Banner/Banner";
+import Navbar from "./shared/Navbar";
+import Home from "./pages/Home/Home";
+import History from "./pages/AboutUs/History";
+import Infrastructure from "./pages/AboutUs/Infrastructure";
+import Activities from "./pages/AboutUs/Activities";
+import Form from "./pages/DownloadAll/Form/Form";
+import Rule from "./pages/DownloadAll/Rule/Rule";
+import Textbook from "./pages/DownloadAll/Textbook";
 
 function App() {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Banner />
+      <Navbar />
+      {/* routes */}
+      <Routes>
+        <Route path='/' element={<Home />}></Route>
+        <Route path='/home' element={<Home />}></Route>
+        <Route path='/history' element={<History />}></Route>
+        <Route path='/infrastructure' element={<Infrastructure />}></Route>
+        <Route path='/activities' element={<Activities />}></Route>
+        <Route path='/form' element={<Form />}></Route>
+        <Route path='/rules' element={<Rule />}></Route>
+        <Route path='/textBook' element={<Textbook />}></Route>
+      </Routes>
     </div>
   );
 }
