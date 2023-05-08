@@ -9,6 +9,7 @@ import Activities from "./pages/AboutUs/Activities";
 import Form from "./pages/DownloadAll/Form/Form";
 import Rule from "./pages/DownloadAll/Rule/Rule";
 import Textbook from "./pages/DownloadAll/Textbook";
+import Officers from "./pages/AboutUs/Officers";
 
 function App() {
 
@@ -26,6 +27,7 @@ function App() {
         <Route path='/form' element={<Form />}></Route>
         <Route path='/rules' element={<Rule />}></Route>
         <Route path='/textBook' element={<Textbook />}></Route>
+        <Route path='/officers' element={<Officers />}></Route>
       </Routes>
     </div>
   );

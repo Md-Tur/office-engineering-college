@@ -49,7 +49,7 @@ const Navbar = () => {
                                     <li className='w-full border-b border-dotted py-2 hover:bg-gray-100'>
                                         <Link
                                             className="text-gray-800 text-[15px] py-1 font-medium"
-                                            to="#">কর্মকর্তা বৃন্দ (জেষ্ঠ্যতার ভিত্তিতে নয়)</Link>
+                                            to="/officers">কর্মকর্তা বৃন্দ (জেষ্ঠ্যতার ভিত্তিতে নয়)</Link>
                                     </li>
                                     <li className='w-full border-b border-dotted py-2 hover:bg-gray-100'>
                                         <Link
