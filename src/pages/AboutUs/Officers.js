@@ -1119,7 +1119,7 @@ const Officers = () => {
                         <div className='w-1/6 border'>
 
                             <div className='flex border'>
-                                <div className='w-2/12 border'>
+                                <div className='w-2/12'>
                                     <h1 className='pl-1 pt-1'>{officer.serial}</h1>
                                 </div>
                                 <div className='w-10/12 border flex justify-center'>
@@ -1144,16 +1144,16 @@ const Officers = () => {
                             </div>
                             <div className='w-1/2 border flex items-center p-1'>
                                 <div className='w-1/3'>
-                                    <p className='border border-gray-300 bg-[#EEEEEE] py-2 pl-2'>মোবাইল</p>
-                                    <p className='border border-gray-300 bg-[#EEEEEE] py-2 pl-2'>ফোন (অফিস)</p>
-                                    <p className='border border-gray-300 bg-[#EEEEEE] py-2 pl-2'>ফোন (বাসা)</p>
-                                    <p className='border border-gray-300 bg-[#EEEEEE] py-2 pl-2'>ফ্যাক্স</p>
+                                    <p className='flex items-center bg-[#EEEEEE] border border-gray-300 h-[42px] pl-2'>মোবাইল</p>
+                                    <p className='flex items-center bg-[#EEEEEE] border border-gray-300 h-[42px] pl-2'>ফোন (অফিস)</p>
+                                    <p className='flex items-center bg-[#EEEEEE] border border-gray-300 h-[42px] pl-2'>ফোন (বাসা)</p>
+                                    <p className='flex items-center bg-[#EEEEEE] border border-gray-300 h-[42px] pl-2'>ফ্যাক্স</p>
                                 </div>
                                 <div className='w-2/3'>
-                                    <p className='border border-gray-300 py-2 pl-2'>{officer.mobile}</p>
-                                    <p className='border border-gray-300 py-2 pl-2'>{officer.mobileOffice}</p>
-                                    <p className='border border-gray-300 py-2 pl-2'>{officer.mobileHome}</p>
-                                    <p className='border border-gray-300 py-2 pl-2'>{officer.fax}</p>
+                                    <p className='flex items-center border border-gray-300 h-[42px] pl-2'>{officer.mobile}</p>
+                                    <p className='flex items-center border border-gray-300 h-[42px] pl-2'>{officer.mobileOffice}</p>
+                                    <p className='flex items-center border border-gray-300 h-[42px] pl-2'>{officer.mobileHome}</p>
+                                    <p className='flex items-center border border-gray-300 h-[42px] pl-2'>{officer.fax}</p>
                                 </div>
                             </div>
                         </div>
