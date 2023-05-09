@@ -2,17 +2,17 @@ import React from 'react';
 // react icon
 import { MdPrint } from "react-icons/md";
 // component
-import TextChanger from '../../../shared/TextChanger';
-import Authority from '../../../shared/Authority/Authority';
-import Diploma from '../../../shared/SingleSyllabus/Diploma';
-import Agriculture from '../../../shared/SingleSyllabus/Agriculture';
-import Textile from '../../../shared/SingleSyllabus/Textile';
-import HSC from '../../../shared/SingleSyllabus/HSC';
-import SSC from '../../../shared/SingleSyllabus/SSC';
-import JSC from '../../../shared/SingleSyllabus/JSC';
-import Basic from '../../../shared/SingleSyllabus/Basic';
-import Advanced from '../../../shared/SingleSyllabus/Advanced';
-import NSS from '../../../shared/SingleSyllabus/NSS';
+import TextChanger from '../../shared/TextChanger';
+import Authority from '../../shared/Authority/Authority';
+import Diploma from '../../shared/SingleSyllabus/Diploma';
+import Agriculture from '../../shared/SingleSyllabus/Agriculture';
+import Textile from '../../shared/SingleSyllabus/Textile';
+import HSC from '../../shared/SingleSyllabus/HSC';
+import SSC from '../../shared/SingleSyllabus/SSC';
+import JSC from '../../shared/SingleSyllabus/JSC';
+import Basic from '../../shared/SingleSyllabus/Basic';
+import Advanced from '../../shared/SingleSyllabus/Advanced';
+import NSS from '../../shared/SingleSyllabus/NSS';
 
 const Syllabus = () => {
     return (

@@ -1,6 +1,7 @@
 import React from 'react';
 // react icon
 import { MdPrint } from "react-icons/md";
+// component
 import TextChanger from '../../shared/TextChanger';
 import Authority from '../../shared/Authority/Authority';
 import Diploma from '../../shared/SingleSyllabus/Diploma';
@@ -12,7 +13,6 @@ import JSC from '../../shared/SingleSyllabus/JSC';
 import Basic from '../../shared/SingleSyllabus/Basic';
 import Advanced from '../../shared/SingleSyllabus/Advanced';
 import NSS from '../../shared/SingleSyllabus/NSS';
-// component
 
 const Curriculum = () => {
     return (

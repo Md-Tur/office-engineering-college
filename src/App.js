@@ -6,14 +6,14 @@ import Home from "./pages/Home/Home";
 import History from "./pages/AboutUs/History";
 import Infrastructure from "./pages/AboutUs/Infrastructure";
 import Activities from "./pages/AboutUs/Activities";
-import Form from "./pages/DownloadAll/Form/Form";
-import Rule from "./pages/DownloadAll/Rule/Rule";
-import Textbook from "./pages/DownloadAll/Textbook";
 import Officers from "./pages/AboutUs/Officers";
 import Employees from "./pages/AboutUs/Employees";
-import Syllabus from "./pages/DownloadAll/Syllabus/Syllabus";
-import Calender from "./pages/DownloadAll/Calender";
 import Curriculum from "./pages/Curriculum/Curriculum";
+import Syllabus from "./pages/DownloadAll/Syllabus";
+import Form from "./pages/DownloadAll/Form/Form";
+import Calender from "./pages/DownloadAll/Calender";
+import Rule from "./pages/DownloadAll/Rule/Rule";
+import Textbook from "./pages/DownloadAll/Textbook";
 
 function App() {
 
