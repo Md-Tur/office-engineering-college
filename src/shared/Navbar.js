@@ -74,7 +74,7 @@ const Navbar = () => {
                                     <li className='w-full border-b border-dotted py-2 hover:bg-gray-100'>
                                         <Link
                                             className="text-gray-800 text-[15px] py-1 font-medium"
-                                            to="#">ডিপ্লোমা পর্যায়</Link>
+                                            to="/curriculum">ডিপ্লোমা পর্যায়</Link>
                                     </li>
                                 </ul>
                             </li>
@@ -130,7 +130,7 @@ const Navbar = () => {
                                     <li className='w-full border-b border-dotted py-2 hover:bg-gray-100'>
                                         <Link
                                             className="text-gray-800 text-[15px] py-1  font-medium  "
-                                            to="#">সিলেবাস/কোর্স স্ট্রাকচার/প্রবিধান</Link>
+                                            to="/syllabus">সিলেবাস/কোর্স স্ট্রাকচার/প্রবিধান</Link>
                                     </li>
 
                                     <li className='w-full border-b border-dotted py-2 hover:bg-gray-100'>
@@ -141,7 +141,7 @@ const Navbar = () => {
                                     <li className='w-full border-b border-dotted py-2 hover:bg-gray-100'>
                                         <Link
                                             className="text-gray-800 text-[15px] py-1  font-medium  "
-                                            to="#">একাডেমিক ক্যালেন্ডার</Link>
+                                            to="/calender">একাডেমিক ক্যালেন্ডার</Link>
                                     </li>
                                     <li className='w-full border-b border-dotted py-2 hover:bg-gray-100'>
                                         <Link

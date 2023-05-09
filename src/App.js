@@ -11,6 +11,9 @@ import Rule from "./pages/DownloadAll/Rule/Rule";
 import Textbook from "./pages/DownloadAll/Textbook";
 import Officers from "./pages/AboutUs/Officers";
 import Employees from "./pages/AboutUs/Employees";
+import Syllabus from "./pages/DownloadAll/Syllabus/Syllabus";
+import Calender from "./pages/DownloadAll/Calender";
+import Curriculum from "./pages/Curriculum/Curriculum";
 
 function App() {
 
@@ -25,11 +28,14 @@ function App() {
         <Route path='/history' element={<History />}></Route>
         <Route path='/infrastructure' element={<Infrastructure />}></Route>
         <Route path='/activities' element={<Activities />}></Route>
-        <Route path='/form' element={<Form />}></Route>
-        <Route path='/rules' element={<Rule />}></Route>
-        <Route path='/textBook' element={<Textbook />}></Route>
         <Route path='/officers' element={<Officers />}></Route>
         <Route path='/employees' element={<Employees />}></Route>
+        <Route path='/curriculum' element={<Curriculum />}></Route>
+        <Route path='/syllabus' element={<Syllabus />}></Route>
+        <Route path='/form' element={<Form />}></Route>
+        <Route path='/calender' element={<Calender />}></Route>
+        <Route path='/rules' element={<Rule />}></Route>
+        <Route path='/textBook' element={<Textbook />}></Route>
       </Routes>
     </div>
   );
