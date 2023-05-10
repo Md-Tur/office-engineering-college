@@ -10,6 +10,7 @@ import innovation from "../../images/INNOVATION.png";
 // react icon
 import { IoMdArrowDropright } from "react-icons/io";
 import Authority from '../../shared/Authority/Authority';
+import { Link } from 'react-router-dom';
 
 const Home = () => {
     const notices = [
@@ -42,7 +43,8 @@ const Home = () => {
             img: '',
             points: [
                 {
-                    name: 'ডিপ্লোমা পর্যায়'
+                    name: 'ডিপ্লোমা পর্যায়',
+                    link: '/rules'
                 },
                 {
                     name: 'এইচ এস সি পর্যায়'
@@ -191,7 +193,7 @@ const Home = () => {
                         notices.map(notice =>
                             <div className='flex items-center ml-4 mb-1' key={notice.id}>
                                 <IoMdArrowDropright className='text-[#2DCA48] text-2xl' />
-                                <p className='underline decoration-dotted ml-3'>{notice.notice}</p>
+                                <Link className='underline decoration-dotted ml-3'>{notice.notice}</Link>
                             </div>
                         )
                     }
@@ -213,7 +215,7 @@ const Home = () => {
                                             news.points.map(point =>
                                                 <div className="flex items-center gap-1 my-1">
                                                     <IoMdArrowDropright className='text-[#2DCA48] text-2xl' />
-                                                    <p className='ml-3'>{point.name}</p>
+                                                    <Link className='ml-3' to={point.link}>{point.name}</Link>
                                                 </div>
                                             )
                                         }

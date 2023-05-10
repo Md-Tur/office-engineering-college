@@ -21,9 +21,6 @@ const Curriculum = () => {
             <div className="w-3/4 pb-5">
                 <TextChanger />
                 <MdPrint className='text-3xl mt-7' />
-                <p className='text-sm text-right'>সর্ব-শেষ হাল-নাগাদ: ১৩ এপ্রিল ২০২৩</p>
-                <hr />
-                <h1 className='text-3xl py-5'>সিলেবাস/কোর্স স্ট্রাকচার/প্রবিধান</h1>
                 <Diploma />
                 <Agriculture />
                 <Textile />

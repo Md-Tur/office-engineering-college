@@ -1,17 +1,44 @@
 import React from 'react';
 
 const TestAdministration = () => {
+
+    const tests = [
+        {
+            id: 1,
+            name: 'অনিয়মিত পরীক্ষার্থীদের পরীক্ষায় অংশগ্রহণের অনুমতির আবেদন'
+        },
+        {
+            id: 2,
+            name: 'চাহিদা ফরম'
+        },
+        {
+            id: 3,
+            name: 'পরীক্ষার্থীর বিরুদ্ধে গোপনীয় প্রতিবেদন'
+        },
+        {
+            id: 4,
+            name: 'বান্ডেল লেবেল'
+        },
+        {
+            id: 5,
+            name: 'শিরোনাম পত্র'
+        },
+        {
+            id: 6,
+            name: 'হাজিরা শীট'
+        }
+    ]
+
     return (
         <div className='mt-10'>
             <h1 className='text-lg font-semibold'>পরীক্ষা পরিচালনা সংশ্লিষ্ট ফরম</h1>
-            <div className='border border-gray-300'>
-                <p className='border-b border-gray-300 text-base py-3 text-gray-500 hover:text-black pl-2'>অনিয়মিত পরীক্ষার্থীদের পরীক্ষায় অংশগ্রহণের অনুমতির আবেদন</p>
-                <p className='border-b border-gray-300 text-base py-3 text-gray-500 hover:text-black pl-2'>চাহিদা ফরম</p>
-                <p className='border-b border-gray-300 text-base py-3 text-gray-500 hover:text-black pl-2'>পরীক্ষার্থীর বিরুদ্ধে গোপনীয় প্রতিবেদন</p>
-                <p className='border-b border-gray-300 text-base py-3 text-gray-500 hover:text-black pl-2'>বান্ডেল লেবেল</p>
-                <p className='border-b border-gray-300 text-base py-3 text-gray-500 hover:text-black pl-2'>শিরোনাম পত্র</p>
-                <p className='text-base py-3 text-gray-500 hover:text-black pl-2'>হাজিরা শীট</p>
-            </div>
+            {
+                tests.map(test =>
+                    <div key={test.id} className='border border-gray-300'>
+                        <p className='text-base py-3 text-gray-500 hover:text-black hover:cursor-pointer pl-2'>{test.name}</p>
+                    </div>
+                )
+            }
         </div>
     );
 };

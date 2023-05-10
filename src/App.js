@@ -11,7 +11,7 @@ import Employees from "./pages/AboutUs/Employees";
 import Curriculum from "./pages/Curriculum/Curriculum";
 import Syllabus from "./pages/DownloadAll/Syllabus";
 import Form from "./pages/DownloadAll/Form/Form";
-import Calender from "./pages/DownloadAll/Calender";
+import Calender from "./pages/DownloadAll/Calender/Calender";
 import Rule from "./pages/DownloadAll/Rule/Rule";
 import Textbook from "./pages/DownloadAll/Textbook";
 

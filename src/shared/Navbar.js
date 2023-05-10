@@ -83,7 +83,7 @@ const Navbar = () => {
                             <li className="relative group text-center border border-dotted py-3 text-[#84154D] hover:text-white hover:bg-[#84154D] cursor-pointer">
                                 <Link
                                     className=" text-[15px]  font-medium  group "
-                                    to="#">শিক্ষকদের তথ্য
+                                    to="http://180.211.162.102:8444/basic_teacher/index.php">শিক্ষকদের তথ্য
                                     <i
                                         className="fa-solid fa-chevron-down text-sm ml-2 text-gray-500 group-"
                                     ></i></Link>
@@ -105,12 +105,12 @@ const Navbar = () => {
                                     <li className='w-full border-b border-dotted py-2 hover:bg-gray-100'>
                                         <Link
                                             className="text-gray-800 text-[15px] py-1  font-medium  "
-                                            to="#">ডিপ্লোমা ইন্জিনিয়ারিং </Link>
+                                            to="http://180.211.162.102:8444/result_arch/index.php">ডিপ্লোমা ইন্জিনিয়ারিং </Link>
                                     </li>
                                     <li className='w-full border-b border-dotted py-2 hover:bg-gray-100'>
                                         <Link
                                             className="text-gray-800 text-[15px] py-1  font-medium  "
-                                            to="#">সল্প মেয়াদী ও অন্যান্য </Link>
+                                            to="http://180.211.162.102:8444/result_arch/index.php">সল্প মেয়াদী ও অন্যান্য </Link>
                                     </li>
                                 </ul>
                             </li>
@@ -156,7 +156,7 @@ const Navbar = () => {
                                     <li className='w-full border-b border-dotted py-2 hover:bg-gray-100'>
                                         <Link
                                             className="text-gray-800 text-[15px] py-1  font-medium  "
-                                            to="#">কারিগরি শিক্ষক নির্দেশিকা</Link>
+                                            to="https://drive.google.com/drive/u/0/folders/1WQJigPn6otouhR5PWLE2cNawusZzW6yt">কারিগরি শিক্ষক নির্দেশিকা</Link>
                                     </li>
                                 </ul>
                             </li>
