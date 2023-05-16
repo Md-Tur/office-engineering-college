@@ -15,7 +15,7 @@ import SixthPart from './SingleCalender/SixthPart';
 const Calender = () => {
 
     return (
-        <div className="container 2xl:px-10 flex pt-10 gap-5 mx-auto bg-white">
+        <div className="container 2xl:px-10 xl:px-10 lg:px-5 md:px-3 2xl:flex 2xl:flex-row xl:flex xl:flex-row lg:flex lg:flex-row md:flex md:flex-col sm:flex sm:flex-col pt-10 gap-5 mx-auto pb-10 bg-white">
             {/* left sections */}
             <div className="w-3/4 pb-5">
                 <TextChanger />
@@ -35,7 +35,7 @@ const Calender = () => {
             </div>
 
             {/* right sections */}
-            <div className='w-1/4 h-40'>
+            <div className='2xl:w-1/4 xl:w-1/4 lg:w-1/3'>
                 <Authority />
             </div>
         </div>

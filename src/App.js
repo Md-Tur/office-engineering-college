@@ -14,6 +14,9 @@ import Form from "./pages/DownloadAll/Form/Form";
 import Calender from "./pages/DownloadAll/Calender/Calender";
 import Rule from "./pages/DownloadAll/Rule/Rule";
 import Textbook from "./pages/DownloadAll/Textbook";
+import Advertisement from "./pages/Home/SingleCard/Advertisement";
+import ShortTerm from "./pages/Home/SingleCard/ShortTerm";
+import Footer from "./shared/Footer/Footer";
 
 function App() {
 
@@ -36,7 +39,10 @@ function App() {
         <Route path='/calender' element={<Calender />}></Route>
         <Route path='/rules' element={<Rule />}></Route>
         <Route path='/textBook' element={<Textbook />}></Route>
+        <Route path='/advertisement' element={<Advertisement />}></Route>
+        <Route path='/shortTerm' element={<ShortTerm />}></Route>
       </Routes>
+      {/* <Footer /> */}
     </div>
   );
 }

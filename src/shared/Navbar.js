@@ -19,11 +19,10 @@ const Navbar = () => {
                                 </Link>
                             </div>
 
-
                             <li className="relative group  border border-dotted py-3 text-center text-orange-500 hover:text-white hover:bg-orange-500 cursor-pointer">
                                 <Link
                                     className=" text-[15px] font-medium group  "
-                                    to="!#">আমাদের সম্পর্কে
+                                    to="#">আমাদের সম্পর্কে
 
                                 </Link>
                                 <ul
@@ -59,7 +58,6 @@ const Navbar = () => {
                                 </ul>
                             </li>
 
-
                             <li className="relative group text-center border border-dotted py-3 text-[#C40A2A] hover:text-white hover:bg-[#C40A2A] cursor-pointer">
                                 <Link
                                     className=" text-[15px]  font-medium group "
@@ -79,7 +77,6 @@ const Navbar = () => {
                                 </ul>
                             </li>
 
-
                             <li className="relative group text-center border border-dotted py-3 text-[#84154D] hover:text-white hover:bg-[#84154D] cursor-pointer">
                                 <Link
                                     className=" text-[15px]  font-medium  group "
@@ -88,8 +85,6 @@ const Navbar = () => {
                                         className="fa-solid fa-chevron-down text-sm ml-2 text-gray-500 group-"
                                     ></i></Link>
                             </li>
-
-
 
                             <li className="relative group text-center border border-dotted py-3 text-[#1399BE] hover:text-white hover:bg-[#1399BE] cursor-pointer">
                                 <Link
@@ -114,7 +109,6 @@ const Navbar = () => {
                                     </li>
                                 </ul>
                             </li>
-
 
                             <li className="relative group text-center border border-dotted py-3 text-[#8768DE] hover:text-white hover:bg-[#8768DE] cursor-pointer">
                                 <Link
@@ -161,22 +155,17 @@ const Navbar = () => {
                                 </ul>
                             </li>
 
-
-
                             <li className=' text-center border border-dotted text-black py-3 hover:text-white hover:bg-black cursor-pointer'>
                                 <Link
                                     className=" text-[15px]  font-medium  "
-                                    to="!#">ফটোগ্যালারী</Link>
+                                    to="#">ফটোগ্যালারী</Link>
                             </li>
-
 
                             <li className='text-center border border-dotted py-3 text-green-500  hover:text-white hover:bg-green-500 cursor-pointer'>
                                 <Link
                                     className="text-[15px] font-medium"
                                     to="#">বঙ্গবন্ধু কর্ণার</Link>
                             </li>
-
-
                         </ul>
 
                         {/* For Mobile Bar Menu */}

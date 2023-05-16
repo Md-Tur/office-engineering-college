@@ -44,7 +44,7 @@ const Home = () => {
             points: [
                 {
                     name: 'ডিপ্লোমা পর্যায়',
-                    link: '/rules'
+                    link: '/advertisement'
                 },
                 {
                     name: 'এইচ এস সি পর্যায়'
@@ -53,7 +53,8 @@ const Home = () => {
                     name: 'এস,এস,সি পর্যায়'
                 },
                 {
-                    name: 'সল্প মেয়াদী ও অন্যান্য'
+                    name: 'সল্প মেয়াদী ও অন্যান্য',
+                    link: '/shortTerm'
                 }
             ]
         },
@@ -174,9 +175,9 @@ const Home = () => {
     ]
 
     return (
-        <div className="container 2xl:px-10 flex pt-10 gap-5 mx-auto bg-white">
+        <div className="container 2xl:px-10 xl:px-10 lg:px-5 md:px-3 2xl:flex 2xl:flex-row xl:flex xl:flex-row lg:flex lg:flex-row md:flex md:flex-col sm:flex sm:flex-col pt-10 gap-5 mx-auto pb-10 bg-white">
             {/* left sections */}
-            <div className="w-3/4">
+            <div className="2xl:w-3/4 xl:w-3/4 lg:w-2/3">
                 {/* news */}
                 <div className='mb-5 p-[13px] border flex items-center bg-[#EFEFEF] gap-3'>
                     <h1>খবর:</h1>  <marquee>বাকাশিবো অধিভুক্ত সকল প্রতিষ্ঠানে EIIN/প্রতিষ্ঠান ভিত্তিক গ্রামীণ মোবাইল সিম বিতরণ সংক্রান্ত বিজ্ঞপ্তি, বোর্ডের সাথে যোগাযোগের হটলাইন  01550620604, 01876397138, 01847313352, ডিপ্লোমা ইন টেক্সটাইল, এগ্রিকালচার, ফিশারিজ, লাইভস্টক ও ফরেস্ট্রি  শিক্ষাক্রমের প্রথম পর্বের ফরম ফিলাপের প্রভাব লিস্ট আগামী ০৯/০৫/২০২৩ খ্রি. তারিখ হতে অনলাইনে পাওয়া যাবে।</marquee>
@@ -203,7 +204,7 @@ const Home = () => {
                 </div>
 
                 {/* depatments */}
-                <div className="grid grid-cols-2 gap-7 mt-10">
+                <div className="2xl:grid 2xl:grid-cols-2 xl:gap-7 xl:grid xl:grid-cols-2 xl:gap-7 lg:grid lg:grid-cols-2 lg:gap-7 md:grid md:grid-cols-2 md:gap-5 sm:grid sm:grid-cols-1 mt-10">
                     {
                         newses.map(news =>
                             <div key={news.id} className="h-[310px] bg-[#F5F5F5] p-3 pb-6 border border-gray-300">
@@ -229,10 +230,10 @@ const Home = () => {
                 {/* video sections */}
                 <div className='mt-10'>
                     <h1 className="p-2.5 bg-[#609513] text-lg font-semibold text-white mb-3">আশ্রয়ণের অধিকার শেখ হাসিনার উপহার</h1>
-                    <div className="grid grid-cols-3 gap-3">
-                        <iframe title="video" src="https://www.youtube.com/embed/VIDEO_ID" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
-                        <iframe title="video" src="https://www.youtube.com/embed/VIDEO_ID" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
-                        <iframe title="video" src="https://www.youtube.com/embed/VIDEO_ID" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+                    <div className="2xl:grid 2xl:grid-cols-3 2xl:gap-3 xl:grid xl:grid-cols-3 xl:gap-3 lg:grid lg:grid-cols-2 lg:gap-3 md:grid md:grid-cols-2 md:gap-2">
+                        <iframe title="video" src="https://www.youtube.com/embed/VIDEO_ID" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+                        <iframe title="video" src="https://www.youtube.com/embed/VIDEO_ID" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+                        <iframe title="video" src="https://www.youtube.com/embed/VIDEO_ID" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
                     </div>
                 </div>
 
@@ -240,20 +241,19 @@ const Home = () => {
                     <h1 className="p-2.5 bg-[#609513] text-lg font-semibold text-white mb-3">আশ্রয়ণের অধিকার শেখ হাসিনার উপহার</h1>
                     <div className="w-full flex gap-3">
                         <div className="w-2/4">
-                            <iframe className="w-full h-52" title="video" src="https://www.youtube.com/embed/VIDEO_ID" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+                            <iframe className="w-full h-52" title="video" src="https://www.youtube.com/embed/VIDEO_ID" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
                             <p className="text-center text-base font-semibold py-3">ফল আর্মিওয়ার্ম পর্যবেক্ষণ ও সনাক্তকরণ</p>
                         </div>
                         <div className="w-2/4">
-                            <iframe className="w-full h-52" title="video" src="https://www.youtube.com/embed/VIDEO_ID" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+                            <iframe className="w-full h-52" title="video" src="https://www.youtube.com/embed/VIDEO_ID" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
                             <p className="text-center text-base font-semibold py-3">বন্যার সময় কি করণীয়</p>
                         </div>
                     </div>
                 </div>
-
             </div>
 
             {/* right sections */}
-            <div className='w-1/4 h-40'>
+            <div className='2xl:w-1/4 xl:w-1/4 lg:w-1/3'>
                 {/* authority sections */}
                 <Authority />
             </div>

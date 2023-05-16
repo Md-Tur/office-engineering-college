@@ -49,7 +49,7 @@ const Authority = () => {
   ]
 
   return (
-    <div>
+    <div className='2xl:flex 2xl:flex-col lg:flex lg:flex-col md:grid md:grid-cols-2 md:gap-5 sm:grid sm:grid-cols-2 sm:gap-3'>
       {
         titles.map(title =>
           <SingleAuthor key={title.id} title={title} />
