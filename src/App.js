@@ -42,7 +42,7 @@ function App() {
         <Route path='/advertisement' element={<Advertisement />}></Route>
         <Route path='/shortTerm' element={<ShortTerm />}></Route>
       </Routes>
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 }

@@ -204,7 +204,7 @@ const Home = () => {
                 </div>
 
                 {/* depatments */}
-                <div className="2xl:grid 2xl:grid-cols-2 xl:gap-7 xl:grid xl:grid-cols-2 xl:gap-7 lg:grid lg:grid-cols-2 lg:gap-7 md:grid md:grid-cols-2 md:gap-5 sm:grid sm:grid-cols-1 mt-10">
+                <div className="2xl:grid 2xl:grid-cols-2 xl:grid xl:grid-cols-2 xl:gap-7 lg:grid lg:grid-cols-2 lg:gap-7 md:grid md:grid-cols-2 md:gap-5 sm:grid sm:grid-cols-1 mt-10">
                     {
                         newses.map(news =>
                             <div key={news.id} className="h-[310px] bg-[#F5F5F5] p-3 pb-6 border border-gray-300">
