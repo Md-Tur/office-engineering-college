@@ -2,7 +2,7 @@ import React from 'react';
 
 const TextChanger = () => {
     return (
-        <div className='flex bg-[#609513] p-3 w-[490px] my-3'>
+        <div className='sm:flex bg-[#609513] p-3 sm:w-[490px] w-full my-3'>
             <div className='flex gap-3 border-r-[3px] border-gray-500 mr-5 text-white items-center'>
                 <p className='text-sm'>Text size</p>
                 <p className='text-xs px-3 py-1'>A</p>

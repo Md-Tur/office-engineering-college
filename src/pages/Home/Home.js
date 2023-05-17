@@ -175,9 +175,9 @@ const Home = () => {
     ]
 
     return (
-        <div className="container 2xl:px-10 xl:px-10 lg:px-5 md:px-3 2xl:flex 2xl:flex-row xl:flex xl:flex-row lg:flex lg:flex-row md:flex md:flex-col sm:flex sm:flex-col pt-10 gap-5 mx-auto pb-10 bg-white">
+        <div className="container mx-auto 2xl:px-10 xl:px-10 lg:px-5 md:px-3 2xl:flex 2xl:flex-row xl:flex xl:flex-row lg:flex lg:flex-row md:flex md:flex-col sm:flex sm:flex-col pt-10 gap-5 pb-10 bg-white">
             {/* left sections */}
-            <div className="2xl:w-3/4 xl:w-3/4 lg:w-2/3">
+            <div className="2xl:w-3/4 xl:w-3/4 lg:w-2/3 w-full">
                 {/* news */}
                 <div className='mb-5 p-[13px] border flex items-center bg-[#EFEFEF] gap-3'>
                     <h1>খবর:</h1>  <marquee>বাকাশিবো অধিভুক্ত সকল প্রতিষ্ঠানে EIIN/প্রতিষ্ঠান ভিত্তিক গ্রামীণ মোবাইল সিম বিতরণ সংক্রান্ত বিজ্ঞপ্তি, বোর্ডের সাথে যোগাযোগের হটলাইন  01550620604, 01876397138, 01847313352, ডিপ্লোমা ইন টেক্সটাইল, এগ্রিকালচার, ফিশারিজ, লাইভস্টক ও ফরেস্ট্রি  শিক্ষাক্রমের প্রথম পর্বের ফরম ফিলাপের প্রভাব লিস্ট আগামী ০৯/০৫/২০২৩ খ্রি. তারিখ হতে অনলাইনে পাওয়া যাবে।</marquee>
@@ -253,11 +253,10 @@ const Home = () => {
             </div>
 
             {/* right sections */}
-            <div className='2xl:w-1/4 xl:w-1/4 lg:w-1/3'>
+            <div className='2xl:w-1/4 xl:w-1/4 lg:w-1/3 w-full'>
                 {/* authority sections */}
                 <Authority />
             </div>
-
         </div>
     );
 };
